@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "VitaliiPetliukh 10/24/2023 16:04",
 	"super" : "Object",
-	"category" : "CargoEntity",
+	"category" : "CargoEntity-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

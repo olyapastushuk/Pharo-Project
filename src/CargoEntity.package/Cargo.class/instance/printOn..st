@@ -7,7 +7,7 @@ printOn: aStream
 	senderAddress printOn: aStream.
 	aStream nextPutAll: ' to '.
 	receiverAddress printOn: aStream.
-	aStream nextPutAll: '. Weight: '.
+	aStream nextPutAll: '; Weight: '.
 	weight printOn: aStream.
-	aStream nextPutAll: '. Distance: '.
+	aStream nextPutAll: '; Distance: '.
 	transportDistance printOn: aStream.
