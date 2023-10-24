@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "VitaliiPetliukh 10/24/2023 16:04",
+	"super" : "Object",
+	"category" : "CargoEntity",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"senderAddress",
+		"receiverAddress",
+		"weight",
+		"transportDistance"
+	],
+	"name" : "Cargo",
+	"type" : "normal"
+}
