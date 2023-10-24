@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "VitaliiPetliukh 10/24/2023 20:33",
+	"super" : "Object",
+	"category" : "CargoEntity-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"memory"
+	],
+	"name" : "CargoContainer",
+	"type" : "normal"
+}
