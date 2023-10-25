@@ -18,10 +18,11 @@ testLoadFromSTONFile
 		      to: 'Chernihiv'
 		      withWeight: 2.1
 		      andDist: 3.
-	collection := CargoContainer new addAll: {
-			              c1.
-			              c2.
-			              c3 }.
+	collection := CargoContainer new.
+	collection addAll: {
+			c1.
+			c2.
+			c3 }.
 	tmpFile := 'temp.ston'.
 	collection saveToFile: tmpFile.
 	collection2 := CargoContainer loadFromSTONFile: tmpFile.

@@ -4,7 +4,8 @@ newCollectionBySenderAddress
 	| sender cargosNew msg |
 	sender := ui request:
 		          'Type a sender address to create a new collection with cargos departing from this adress only.'.
-	cargosNew := cargos select: [ :c | c senderAddress = sender ].
+	cargosNew := CargoContainer new.
+	cargosNew addAll: (cargos select: [ :c | c senderAddress = sender ]).
 	msg := String new writeStream.
 	msg
 		nextPutAll: 'New collection departing from ';

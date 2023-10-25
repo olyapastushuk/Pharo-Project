@@ -18,10 +18,11 @@ testAddAll
 		      to: 'Chernihiv'
 		      withWeight: 2.1
 		      andDist: 3.
-	collection := CargoContainer new addAll: {
-			              c1.
-			              c2.
-			              c3 }.
+	collection := CargoContainer new.
+	collection addAll: {
+			c1.
+			c2.
+			c3 }.
 	self assert: (collection at: 1) equals: c1.
 	self assert: (collection at: 2) equals: c2.
 	self assert: (collection at: 3) equals: c3.
