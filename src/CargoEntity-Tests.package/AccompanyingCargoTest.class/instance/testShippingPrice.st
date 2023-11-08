@@ -9,4 +9,4 @@ testShippingPrice
 	self
 		assert: c shippingPrice
 		equals:
-		Cargo deliveryCost * 25.0 - (Cargo deliveryCost * 25.0 * 0.2)
+		Cargo deliveryCost * 25.0 * 0.8

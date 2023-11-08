@@ -1,7 +1,7 @@
 adding
-addByGUI: aNumber
+addByGUI: aQuantity
 	"Adds a specified number of cargo instances to a collection by reading from a GUI dialog"
 
 	self addAll:
-		((1 to: aNumber) asArray collect: [ :_ | Cargo newByDialogInput ]).
-	^ aNumber
+		((1 to: aQuantity) collect: [ :_ | Cargo newByDialogInput ]).
+	^ aQuantity

@@ -1,5 +1,5 @@
 calculating
 shippingPrice
-	"Calculates the shipping price taking discount into account."
+	"Calculates the shipping price taking the discount into account."
 
-	^ super shippingPrice - (super shippingPrice * discount)
+	^ super shippingPrice * (1 - discount)
