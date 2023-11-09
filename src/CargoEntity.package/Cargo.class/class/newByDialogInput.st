@@ -5,7 +5,7 @@ newByDialogInput
 	| string stream type |
 	string := UIManager default
 		          request: 'Input the cargo data separated by ;'
-		          initialAnswer: 'c|ac;Uman;Chernivtsi;3.7;456.0;[0.2;]'
+		          initialAnswer: 'c|ac;FromAddress;ToAddress;3.33;44.44;[10;]'
 		          title: 'Create a Cargo instance'.
 	string ifNil: [ ^ nil ].
 	stream := string readStream.

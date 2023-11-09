@@ -6,8 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"memory"
+		"memory",
+		"name",
+		"exchangeDiscount"
 	],
-	"name" : "CargoContainer",
+	"name" : "TransportExchange",
 	"type" : "normal"
 }

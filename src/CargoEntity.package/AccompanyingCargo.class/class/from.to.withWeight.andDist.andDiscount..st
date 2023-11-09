@@ -7,4 +7,5 @@ from: aSenderAddress to: aReceiverAddress withWeight: aWeight andDist: aDist and
 		  receiverAddress: aReceiverAddress;
 		  weight: aWeight;
 		  transportDistance: aDist;
-		  discount: aDiscount
+		  discount: aDiscount;
+		  deliveryStatus: DeliveryStatusEnum pending

@@ -9,7 +9,8 @@
 		"senderAddress",
 		"receiverAddress",
 		"weight",
-		"transportDistance"
+		"transportDistance",
+		"deliveryStatus"
 	],
 	"name" : "Cargo",
 	"type" : "normal"

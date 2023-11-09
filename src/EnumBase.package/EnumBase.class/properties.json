@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "VitaliiPetliukh 11/8/2023 23:35",
+	"super" : "Object",
+	"category" : "EnumBase",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "EnumBase",
+	"type" : "normal"
+}

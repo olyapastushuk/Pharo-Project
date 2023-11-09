@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VitaliiPetliukh 11/8/2023 23:36",
+	"super" : "EnumBase",
+	"category" : "CargoEntity-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DeliveryStatusEnum",
+	"type" : "normal"
+}

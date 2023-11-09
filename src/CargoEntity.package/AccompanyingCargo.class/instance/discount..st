@@ -1,7 +1,8 @@
 accessing
-discount: aDiscount
-	"A discount setter. Discount must be in range [0, 1]."
+discount: anInteger
+	"A discount setter. Discount must be an integer in range from 0 to 100 percents."
 
-	aDiscount >= 0.0 & aDiscount <= 1.0
-		ifTrue: [ discount := aDiscount ]
-		ifFalse: [ self error: 'Discount must be a percentage from 0 to 1.' ]
+	(anInteger >= 0 and: anInteger <= 100)
+		ifTrue: [ discount := anInteger ]
+		ifFalse: [
+		self error: 'Discount must be an integer in range from 0 to 100.' ]
