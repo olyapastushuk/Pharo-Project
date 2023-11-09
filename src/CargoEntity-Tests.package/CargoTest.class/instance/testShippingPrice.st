@@ -1,8 +1,7 @@
-tests
+tests - calculating
 testShippingPrice
 
-	| c |
-	c := Cargo new
-		     weight: 5.0;
-		     transportDistance: 5.0.
-	self assert: c shippingPrice equals: Cargo deliveryCost * 25.0
+	cargo1
+		weight: 6.0;
+		transportDistance: 5.0.
+	self assert: cargo1 shippingPrice equals: Cargo deliveryCost * 30.0

@@ -1,8 +1,9 @@
-tests
+tests - comparing
 testLessThan
 
-	| c1 c2 |
-	c1 := Cargo new weight: 10.0.
-	c2 := Cargo new weight: 20.0.
-	self assert: c1 < c2.
-	self assert: (c2 < c1) not
+	cargo1 weight: 100.0.
+	cargo2 weight: 200.0.
+	self assert: cargo1 < cargo2.
+	
+	cargo1 weight: 300.0.
+	self assert: cargo2 < cargo1

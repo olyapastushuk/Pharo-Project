@@ -1,4 +1,4 @@
-tests
+tests - instance creation
 testFromToWithWeightAndDist
 
 	| c |
@@ -10,4 +10,5 @@ testFromToWithWeightAndDist
 	self assert: c senderAddress equals: 'Lviv'.
 	self assert: c receiverAddress equals: 'Kyiv'.
 	self assert: c weight equals: 10.0.
-	self assert: c transportDistance equals: 100.0
+	self assert: c transportDistance equals: 100.0.
+	self assert: c deliveryStatus equals: DeliveryStatusEnum pending

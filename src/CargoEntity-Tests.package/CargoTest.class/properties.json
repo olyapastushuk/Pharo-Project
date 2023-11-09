@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"cargo1",
+		"cargo2",
+		"cargo3"
+	],
 	"name" : "CargoTest",
 	"type" : "normal"
 }

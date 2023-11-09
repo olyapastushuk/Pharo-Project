@@ -1,12 +1,14 @@
-tests
+tests - comparing
 testEqualsSign
 
-	| c1 c2 |
-	c1 := Cargo new.
-	c2 := Cargo new.
-	self assert: c1 equals: c2.
-	c1 senderAddress: 'Lviv'.
-	c2 senderAddress: 'Lviv'.
-	self assert: c1 equals: c2.
-	c2 senderAddress: 'Kyiv'.
-	self assert: (c1 = c2) not
+	self assert: cargo1 ~= cargo2.
+
+	cargo1
+		senderAddress: cargo2 senderAddress;
+		receiverAddress: cargo2 receiverAddress;
+		weight: cargo2 weight;
+		transportDistance: cargo2 transportDistance.
+	self assert: cargo1 equals: cargo2.
+	
+	cargo1 deliveryStatus: DeliveryStatusEnum paidAndReceived.
+	self assert: cargo1 ~= cargo2

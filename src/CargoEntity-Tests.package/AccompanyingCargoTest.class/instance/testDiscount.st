@@ -1,6 +1,5 @@
-tests
+tests - accessing
 testDiscount
 
-	| c |
-	c := AccompanyingCargo new.
-	self should: [ c discount: 5.0 ] raise: Error
+	self should: [ accoCargo1 discount: 101 ] raise: Error.
+	self should: [ accoCargo1 discount: -1 ] raise: Error
