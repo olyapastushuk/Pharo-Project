@@ -1,0 +1,4 @@
+initialization
+modelChanged
+
+	self updateForm

@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "VitaliiPetliukh 11/11/2023 00:28",
+	"super" : "SpPresenterWithModel",
+	"category" : "CargoTransportExchangeApp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"senderAddressTextInput",
+		"receiverAddressTextInput",
+		"weightNumberInput",
+		"transportDistanceNumberInput",
+		"deliveryStatusOptionsInput",
+		"discountLabel",
+		"discountNumberInput",
+		"saveButton",
+		"cancelButton",
+		"resetButton",
+		"cargoRadioButton",
+		"accompanyingRadioButton"
+	],
+	"name" : "CargoFormPresenter",
+	"type" : "normal"
+}
