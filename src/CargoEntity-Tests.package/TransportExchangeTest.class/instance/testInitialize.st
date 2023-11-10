@@ -1,4 +1,4 @@
-tests
+tests - instance creation
 testInitialize
 
 	| c |
