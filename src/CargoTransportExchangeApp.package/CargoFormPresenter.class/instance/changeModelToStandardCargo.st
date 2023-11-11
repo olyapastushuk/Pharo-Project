@@ -1,5 +1,5 @@
 actions
 changeModelToStandardCargo
 
-	self model: self model asStandardCargo.
-	self window title: self model className , ' Form'
+	(self model isKindOf: AccompanyingCargo) ifTrue: [
+		self model: self model asStandardCargo ]

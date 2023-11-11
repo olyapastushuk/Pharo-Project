@@ -1,5 +1,5 @@
 actions
 changeModelToAccompanyingCargo
 
-	self model: (AccompanyingCargo fromBase: self model withDiscount: 0).
-	self window title: self model className , ' Form'
+	(self model isKindOf: AccompanyingCargo) ifFalse: [
+		self model: (AccompanyingCargo fromBase: self model withDiscount: 0) ]

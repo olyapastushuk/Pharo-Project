@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "SpPresenterWithModel",
+	"category" : "CargoTransportExchangeApp-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cargoCollection",
+		"cargoTable",
+		"cargoForm",
+		"deliveryCostRateNumberInput",
+		"accompanyingDiscountNumberInput",
+		"totalShippingPriceNumber",
+		"totalDistanceNumber",
+		"receiverSearchInput",
+		"senderSearchInput"
+	],
+	"name" : "CargoTablePresenter",
+	"type" : "normal"
+}

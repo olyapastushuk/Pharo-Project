@@ -5,7 +5,9 @@ updateDiscountInputIfAccompanyingCargo
 		ifTrue: [
 			discountNumberInput number: self model discount.
 			discountLabel show.
-			discountNumberInput show ]
+			discountNumberInput show.
+			accompanyingRadioButton state: true ]
 		ifFalse: [
 			discountLabel hide.
-			discountNumberInput hide ]
+			discountNumberInput hide.
+			cargoRadioButton state: true ]

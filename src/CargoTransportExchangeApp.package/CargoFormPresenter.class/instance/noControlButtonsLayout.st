@@ -1,6 +1,7 @@
 layout
-defaultLayout
-	| cargoFormL radioButtonsL controlButtonsL |
+noControlButtonsLayout
+
+	| cargoFormL radioButtonsL |
 	cargoFormL := self newGridLayout build: [ :builder |
 		builder
 		add: 'Sender address:'; add: senderAddressTextInput span: 2@1; nextRow;
@@ -14,15 +15,8 @@ defaultLayout
 		addLast: cargoRadioButton;
 		addLast: accompanyingRadioButton;
 		yourself.
-	controlButtonsL := self newBoxLayoutLeftToRight
-		spacing: 10;
-		add: saveButton;
-		add: resetButton;
-		add: cancelButton;
-		yourself.
 	^ self newBoxLayoutTopToBottom
 		spacing: 10;
 		add: cargoFormL expand: true fill: true;
 		add: radioButtonsL expand: false fill: false;
-		add: controlButtonsL expand: false fill: false;
 		yourself

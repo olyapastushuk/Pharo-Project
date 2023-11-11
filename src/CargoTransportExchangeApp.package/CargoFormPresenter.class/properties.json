@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "VitaliiPetliukh 11/11/2023 00:28",
 	"super" : "SpPresenterWithModel",
-	"category" : "CargoTransportExchangeApp",
+	"category" : "CargoTransportExchangeApp-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
