@@ -1,5 +1,5 @@
 filtering
 filterByReceiver: aReceiver
 	"Filter a cargo collection by a receiver"
-
-	^ self select: [ :cargo | cargo receiverAddress = aReceiver ]
+	aReceiver isEmpty ifTrue: [ ^self ].
+	^ self select: [ :cargo | (cargo receiverAddress findString: aReceiver) ~= 0 ]

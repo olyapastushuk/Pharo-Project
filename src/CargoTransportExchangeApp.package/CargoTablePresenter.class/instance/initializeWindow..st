@@ -2,5 +2,5 @@ initialization
 initializeWindow: aWindowPresenter
 
 	^ aWindowPresenter
-		initialExtent: 480@480;
+		initialExtent: 820@360;
 		title: 'Cargo Collection Table'

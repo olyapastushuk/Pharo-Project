@@ -9,5 +9,13 @@ configurePresenters
 			SpStringTableColumn title: 'Status' evaluated: [ :item | item deliveryStatus value ] };
 		beResizable;
 		enableSearch;
-		beMultipleSelection
-		
+		beMultipleSelection.
+	senderSearchInput placeholder: 'Search for sender...'.
+	receiverSearchInput placeholder: 'Search for receiver...'.
+	statusDroplist
+		items: self class filterStatusDropdownList;
+		display: [ :e | e ifNil: [ String empty ] ifNotNil: [ e value ] ].
+	totalShippingPriceNumber beNotEditable.
+	totalDistanceNumber beNotEditable.
+	saveExchangePropsButtons label: 'Save'.
+	resetExchangePropsButton label: 'Reset'

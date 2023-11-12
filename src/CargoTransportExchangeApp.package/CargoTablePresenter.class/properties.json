@@ -14,7 +14,10 @@
 		"totalShippingPriceNumber",
 		"totalDistanceNumber",
 		"receiverSearchInput",
-		"senderSearchInput"
+		"senderSearchInput",
+		"statusDroplist",
+		"saveExchangePropsButtons",
+		"resetExchangePropsButton"
 	],
 	"name" : "CargoTablePresenter",
 	"type" : "normal"
