@@ -18,4 +18,13 @@ configurePresenters
 	totalShippingPriceNumber beNotEditable.
 	totalDistanceNumber beNotEditable.
 	saveExchangePropsButtons label: 'Save'.
-	resetExchangePropsButton label: 'Reset'
+	resetExchangePropsButton label: 'Reset'.
+	openFileTButton label: 'Open file'; icon: (self iconNamed: #open).
+	saveToFileButton label: 'Save as'; icon: (self iconNamed: #smallSaveAs).
+	addCargoTButton label: 'Add cargo'; icon: (self iconNamed: #add).
+	toolbar add: openFileTButton; add: saveToFileButton; add: addCargoTButton.
+	setAccompanyingButton label: 'Set accompanying cargos'.
+	setMainCargosButton label: 'Set main cargos'.
+	assembleButton label: 'Assemble'.
+	statusSelectDropdown items: DeliveryStatusEnum values; display: [ :e | e value ].
+	updateStatusButton label: 'Update statuses'.

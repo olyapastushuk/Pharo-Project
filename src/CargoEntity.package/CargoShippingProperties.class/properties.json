@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CargoEntity-Settings",
+	"classinstvars" : [
+		"DeliveryCost"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CargoShippingProperties",
+	"type" : "normal"
+}

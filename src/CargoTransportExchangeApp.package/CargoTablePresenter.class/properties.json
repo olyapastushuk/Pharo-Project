@@ -17,7 +17,18 @@
 		"senderSearchInput",
 		"statusDroplist",
 		"saveExchangePropsButtons",
-		"resetExchangePropsButton"
+		"resetExchangePropsButton",
+		"toolbar",
+		"addCargoTButton",
+		"openFileTButton",
+		"saveToFileButton",
+		"setAccompanyingButton",
+		"setMainCargosButton",
+		"assembleButton",
+		"accompanyingSelectionList",
+		"mainSelectionList",
+		"statusSelectDropdown",
+		"updateStatusButton"
 	],
 	"name" : "CargoTablePresenter",
 	"type" : "normal"

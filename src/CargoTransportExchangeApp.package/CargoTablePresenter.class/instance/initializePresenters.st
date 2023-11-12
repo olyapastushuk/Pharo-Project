@@ -12,5 +12,16 @@ initializePresenters
 	statusDroplist := self newDropList.
 	saveExchangePropsButtons := self newButton.
 	resetExchangePropsButton := self newButton.
+	toolbar := self newToolbar.
+	addCargoTButton := self newToolbarButton.
+	openFileTButton := self newToolbarButton.
+	saveToFileButton := self newToolbarButton.
+	setAccompanyingButton := self newButton.
+	setMainCargosButton := self newButton.
+	assembleButton := self newButton.
+	accompanyingSelectionList := self newList.
+	mainSelectionList := self newList.
+	statusSelectDropdown := self newDropList.
+	updateStatusButton := self newButton.
 	
 	self configurePresenters

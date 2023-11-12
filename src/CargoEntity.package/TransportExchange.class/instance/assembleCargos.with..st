@@ -1,4 +1,4 @@
-converting
+transforming
 assembleCargos: accompaningIndexes with: mainCargoIndexes
 
 	accompaningIndexes do: [ :i |

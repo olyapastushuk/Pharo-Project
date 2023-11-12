@@ -1,0 +1,4 @@
+actions
+setAccompanyingSelection
+
+	accompanyingSelectionList items: cargoTable selectedItems
